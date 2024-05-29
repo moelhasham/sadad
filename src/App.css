@@ -1,0 +1,68 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(29, 24, 24);
+    width: 100%;
+    height: 100vh;
+}
+
+.forma{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 15px ;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+
+    
+}
+
+.forma button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.formab{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formab button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(26, 26, 110);
+    color: aliceblue;
+    
+}
